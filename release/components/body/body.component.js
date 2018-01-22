@@ -406,7 +406,7 @@ var DataTableBodyComponent = /** @class */ (function () {
                 // If virtual rows are not needed
                 // We render all in one go
                 first = 0;
-                last = this.rowCount - 1;
+                last = this.rowCount;
             }
         }
         else {
